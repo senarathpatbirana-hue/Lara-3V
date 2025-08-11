@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Your_Session_Id", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "vM5iDK5Z#MRijbz0TyPcRuPFwpq4_9h9Qf73SxgYJ0nKfNPt0w30", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94764288067",
+DEV: process.env.DEV || "94764288067",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -26,18 +26,18 @@ FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
-ANTI_BOT: process.env.ANTI_BOT || "false",
+ANTI_BOT: process.env.ANTI_BOT || "true",
 ANTI_CALL: process.env.ANTI_CALL || "true",
-BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "true",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 READ_CMD: process.env.READ_CMD || "true",
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
-INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
+INBOX_BLOCK: process.env.INBOX_BLOCK || "true",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
